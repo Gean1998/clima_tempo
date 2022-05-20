@@ -26,11 +26,11 @@ class InformacaoClima extends StatelessWidget {
       children: [
         Image.asset(
           'assets/imagens/ic_clima.png',
-          width: 80,
-          height: 80,
+          width: 40,
+          height: 40,
         ),
         Text('$diaDaSemana, $data'),
-        Text('$descricao, $temperatura°'),
+        Text('$descricao $temperatura'),
         Text('Máxima: $maxima, Miníma: $minima'),
         Text(cidade ?? ''),
       ],

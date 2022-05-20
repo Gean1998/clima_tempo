@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.asou.clima_tempo">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="clima_tempo"
+        android:label="Clima Tempo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
